@@ -45,7 +45,7 @@ export default function Home() {
       await navigator.clipboard.writeText(EMAIL);
       setButtonText("Email Copied!");
       setTimeout(() => setButtonText("Contact Us"), 2000);
-    } catch (err) {
+    } catch {
       setButtonText("Failed to Copy");
       setTimeout(() => setButtonText("Contact Us"), 2000);
     }
