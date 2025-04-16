@@ -51,8 +51,6 @@ export default function Home() {
     }
   };
 
-  
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#4F0080] text-white font-[family-name:var(--font-geist-sans)] px-4 sm:px-6 md:px-8">
       <main ref={mainRef} className="flex flex-col items-center text-center w-full max-w-7xl mx-auto">
